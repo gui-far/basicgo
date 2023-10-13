@@ -1,0 +1,32 @@
+1
+go mod init firstGoProject
+Vai crair um arquivo go.mod
+
+2
+Create a new file "main.go"
+
+3
+go run main.go
+
+4
+go build main.go
+Vai buildar o programa para o sistema operacional atual
+Mas pode ser alterado fazendo assim:
+
+GOOS=windows go build main.go
+
+5
+./main.go
+vai rodar o executavel
+
+6
+GO TEM TIPAGEM FORTE
+NAO DEIXA VC SALVAR O PROGRAMA SE CRIOU UMA VARIAVEL E NAO USOU executavel
+
+7
+fmt
+Pacote de formatacao
+
+8
+http
+pacote formatacao http
